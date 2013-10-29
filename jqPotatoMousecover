@@ -1,0 +1,30 @@
+.mouse {
+	margin-top: 200px;
+}
+
+ul li {
+	list-style: none;
+	float: left;
+}
+
+.mouse ul li {
+	margin-left: 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+.mouse .show {
+	width: 150px;
+	height: 150px;
+	background: #ccc;
+	text-align: center;
+}
+
+.mouse .cover {
+	width: 150px;
+	height: 150px;
+	color: #fff;
+	background: #66ccff;
+	opacity: 0.9;
+	position: absolute;
+}
